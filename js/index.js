@@ -1,6 +1,24 @@
 /************************************* 
 Code is based on the walkthough here: http://thecodeplayer.com/walkthrough/matrix-rain-animation-html5-canvas-javascript 
 **************************************/
+
+// jQuery(document).ready(function(){
+//   var navOffset = jQuery("topic").offset().top;
+
+//     jQuery(window).scroll(function(){
+//         var scrollPos = jQuery(window).scrollTop();
+
+//         if (scrollPos >= navOffset){
+//             jQuery("topic").addClass("fixed");
+//         }else{
+//             jQuery("topic").removeClass("fixed");
+//         }
+
+//     }); 
+
+// });
+
+
 var cnvs = document.getElementById('textflow');
 var cntxt = cnvs.getContext('2d');
 
@@ -45,3 +63,4 @@ function draw(){
 }
 
 setInterval(draw, 10);
+
